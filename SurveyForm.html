@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+    <h1 id="title"> freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+    <header>
+      <main>
+        <div class="form">
+        <form id="survey-form">
+          <label for="name" id="name-label">Name: </label><br>
+          <input id="name" type="text" required placeholder="name">
+          <br>
+
+          <label for="number" id="number-label">Age (optional): </label><br>
+          <input id="number" type="number" min="15" max="99" required placeholder="age">
+          <br>
+
+            <label for="email" id="email-label">Email: </label><br>
+          <input id="email" type="email" required placeholder="email">
+          <br>
+          <br>
+
+<p id="question">Which option best describes your current role? 
+          <br>
+          <select id="dropdown">
+            <option>Select Current Role </option>
+            <option>Student </option>
+            <option>Full-time Job </option>
+            <option>Full-time Learner </option>
+            <option>Prefer Not To Say </option>
+            <option>Other </option>
+          </select>
+</p>
+<br>
+<br>
+<p id="question2">Would you recommend freeCodeCamp to a friend?<br>
+  <input type="radio" name="radio-group" value="0" id="definitely">
+    <label for="definitely">Definitely</label><br>
+    <input type="radio" name="radio-group" value="1" id="maybe">
+    <label for="maybe">Maybe</label><br>
+    <input type="radio" name="radio-group" value="2" id="notsure">
+    <label for="notsure">Not Sure</label><br>
+    <br>
+  </p>
+  
+  <p id="question3">What is your favorite feature of freeCodeCamp?<br>
+  <select id="dropdown">
+    <option>Select an option</option>
+    <option>Challenges</option>
+    <option>Projects</option>
+    <option>Community</option>
+    <option>Open Source</option>
+    </select>
+    </p>
+    <br>
+    <br>
+<p id="question4">What would you like to see improved? (Check all that apply)<br>
+<input type="checkbox" name="front-end" value="front-end">
+<label for="front-end">Front-end Projects</label><br>
+
+<input type="checkbox" name="back-end" value="back-end">
+<label for="back-end">Back-end Projects</label><br>
+
+<input type="checkbox" name="data-visualization" value="data-visualizatio">
+<label for="data-visualizatio">Data Visualization</label><br>
+
+<input type="checkbox" name="challenges" value="challenges">
+<label for="challenges">Challenges</label><br>
+
+<input type="checkbox" name="opensourcecommunity" value="opensourcecommunity">
+<label for="opensourcecommunity">Open Source Community</label><br>
+
+<input type="checkbox" name="glitterhelprooms" value="glitterhelprooms">
+<label for="glitterhelprooms">Glitter Help Rooms</label><br>
+
+<input type="checkbox" name="videos" value="videos">
+<label for="videos">Videos</label><br>
+
+<input type="checkbox" name="citymeetups" value="citymeetups">
+<label for="citymeetups">City Meetups</label><br>
+
+<input type="checkbox" name="wiki" value="wiki">
+<label for="wiki">Wiki</label><br>
+
+<input type="checkbox" name="forum" value="forum">
+<label for="forum">Forum</label><br>
+
+<input type="checkbox" name="additionalcourses" value="additionalcourses">
+<label for="additionalcourses">Additional Courses</p><br>
+<br>
+<br>
+
+<p id="question5">Any Comments or Suggestions?</p>
+<textarea>Enter your comment here...</textarea><br>
+        <input type="submit" id="submit">
+        </form>
+        </div>
+      </main>
+  </body>
+  </html>
+
+
+
+
